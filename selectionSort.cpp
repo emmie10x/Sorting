@@ -14,3 +14,6 @@ void selectionSort(vector<int>& arr, int n)
         swap(arr[minIndex], arr[i]);
     }
 }
+
+//minIndex ko i se initialize karte hain kyunki hum assume karte hain ki current position par hi minimum element hai, aur minIndex index store karta hai value nahi.
+//Selection sort me compare value se hota hai, store index hota hai
